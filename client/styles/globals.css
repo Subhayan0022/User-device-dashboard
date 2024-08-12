@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+body {
+    background-image: url("../public/bgimg.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-page {
+    background-color: rgba(5, 13, 39, 0.699);
+    height: 90vh;
+    width: 55vw;
+    backdrop-filter: blur(12px) saturate(180%);
+    border-radius: 20px;
+}
+
+.user-page {
+    background-color: rgba(5, 13, 39, 0.699);
+    height: 90vh;
+    width: 30vw;
+    backdrop-filter: blur(12px) saturate(180%);
+    border-radius: 20px;
+}

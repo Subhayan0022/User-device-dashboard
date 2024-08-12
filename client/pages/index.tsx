@@ -1,4 +1,6 @@
 import React, { useEffect, useState} from 'react'
+import Cards from './components/cards'
+import LoginPage from './components/loginpage'
 
 function index() {
 
@@ -16,7 +18,15 @@ function index() {
   }, [])
 
   return (
-    <div>{message}</div>
+    <div className = "flex w-full h-full mt-10 ">
+      <div className='h-full w-full card-page'>
+        <Cards/>
+      </div>
+      <div className='h-full w-2/12 ml-6 user-page'>
+        <LoginPage/>
+      </div>
+    </div>
+    
   )
 }
 
