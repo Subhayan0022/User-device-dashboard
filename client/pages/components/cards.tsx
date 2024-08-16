@@ -1,7 +1,7 @@
 
 function Cards() {
   return (
-    <div className='flex flex-col w-full h-full m-auto'>
+    <div className='flex flex-col w-full h-full m-auto p-5'>
       <div className="flex w-full h-full ">
         <div className="flex w-full h-full border-2">
           <h1 className="m-auto">Cards</h1>
